@@ -29,10 +29,10 @@
             </a>
             <ul class="navbar-nav d-flex flex-row-reverse gap-4">
                 <li class="nav-item">
-                    <a class="nav-link border" href="#"><i class="ri-notification-3-fill">PROFILE</i></a>
+                    <a class="nav-link border" href="email.php"><i class="ri-notification-3-fill">Email</i></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#"><i class="ri-user-3-fill"></i></a>
+                    <a class="nav-link" href="project.php"><i class="ri-user-3-fill"></i>Projects</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#"><i class="ri-settings-3-fill"></i></a>
@@ -41,58 +41,7 @@
         </nav>
 </div>
 </div>
-<!--
-<div class="row">
-    <div class="col-md-12" style="background-color:red;">
-    <h1>Rojo</h1>
-    </div>  
-</div>
-<div class="row">
-    <div class="col-md-5" style="background-color:green;">
-        <h1>Table</h1>
-        <table class="table">
-        <thead>
-            <tr>
-            <th scope="col">#</th>
-            <th scope="col">First</th>
-            <th scope="col">Last</th>
-            <th scope="col">Handle</th>
-            <th scope="col">Handle</th>
-            
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-            <th scope="row">1</th>
-            <td>Mark</td>
-            <td>Otto</td>
-            <td>@mdo</td>
-            </tr>
-            <tr>
-            <th scope="row">2</th>
-            <td>Jacob</td>
-            <td>Thornton</td>
-            <td>@fat</td>
-            </tr>
-            <tr>
-            <th scope="row">3</th>
-            <td>Larry the Bird</td>
-            <td>@twitter</td>
-            <td>asd</td>
-            </tr>
-            <tr>
-            <th scope="row">3</th>
-            <td>Larry the Bird</td>
-            <td>@twitter</td>
-            <td>asd</td>
-            </tr>
-        </tbody>
-        </table>
-    </div>
-    <div class="col-md-7" style="background-color:black;">
-        <h1>Mapa</h1>
-    </div>
-</div>-->
+
 <div class="row">
     <div class="col-xl-5 col-lg-6">
         <div class="row rowDatos"></div>
@@ -125,44 +74,6 @@
   </div>
 </div>
 
-
-<!--
-<div class="row">
-    <div class="col-lg-4">
-        <div class="row m-2">
-            <div class="col-sm-6">
-                <div class="d-flex justify-content-center border card card1 c1 c11">
-                    <h1>1</h1>
-                </div>
-            </div>
-            <div class="col-sm-6">
-                <div class="d-flex justify-content-center border card card2 c2 c22">
-                    <h1>2</h1>
-                </div>
-            </div>
-        </div>
-        <div class="row m-4">
-            <div class="d-flex justify-content-center col-sm-12 border c3">
-                <h1>3</h1>
-            </div>
-        </div>
-    </div>
-    <div class="col-lg-8">
-        <div class="row m-2">
-            <div class="col-sm-12 border c4">
-                <h1>4</h1>
-            </div>
-        </div>
-    </div>
-</div>
-
-<div id="myModal" class="modal">
-  <div class="modal-content">
-    <span class="close">&times;</span>
-    <p id="modalText"></p>
-  </div>
-</div>
--->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"

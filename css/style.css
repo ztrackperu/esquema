@@ -43,3 +43,31 @@
     height: 470px;
 }
 
+.btn.dropdown-toggle.arrow-none::after{
+    display:none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+/*CORREO*/
+
+.email-list{
+    list-style-type: none; /* Remueve bullets o puntos de la lista */
+}
+
+.email-list li{
+    padding: 10px 0;
+}
+
+li .unread{
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+
+

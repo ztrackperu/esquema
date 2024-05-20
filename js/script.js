@@ -1,49 +1,3 @@
-//SIDEBAR
-/*
-const hamBurger = document.querySelector(".toggle-btn");
-
-hamBurger.addEventListener("click", function () {
-    alert("clicked");
-    //document.querySelector("#sidebar").classList.toggle("expand");
-});*/
-
-
-/*
-
-
-$(document).ready(function() {
-  // Cuando se haga clic en el botón de hamburguesa
-  $('.toggle-btn').click(function(e) {
-      e.preventDefault();
-
-      // Muestra u oculta el menú lateral
-      $('#sidebar').toggle();
-
-  });
-});*/
-
-
-//X == col-sm-12
-//Y == col-sm-6
-// CARACTERES POR LINEA = 22
-// Si es una o dos tarjetas se le asigna col-sm-12
-// Si son tres o cuatro tarjetas se le asigna col-sm-6
-//Definir altura maxima de 200px por tarjeta
-//cuando se pasa de las lineas designadas se activa el scroll
-
-/*
-  <div class="row">
-      <div class="card cardGrafico">
-          <div class="card-body shadow">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text overflow-auto">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id explicabo voluptatem ipsam fugiat suscipit soluta, excepturi quibusdam error eveniet, perspiciatis dolorum distinctio, repellendus hic natus vero a eligendi culpa facilis?
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo nobis facere velit quisquam, quos animi dolores quasi sint optio ad necessitatibus. Non dicta placeat odit quo dignissimos fugit consequatur voluptas.
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita quod consectetur sint commodi repellendus cupiditate ipsam? Illo facilis, facere incidunt aliquam quam quo deserunt vitae ipsam atque possimus in iste!
-              </p>
-          </div>
-      </div>
-    </div>
-*/
 let cards = [
   { title: 'Tarjeta 1', content: 'Contenido tarjeta 1aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa', details: 'Detalles tarjeta 1' },
   { title: 'Tarjeta 2', content: 'Contenido tarjeta 2aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa', details: 'Detalles tarjeta 2' },
@@ -144,44 +98,6 @@ cardGraficoBody.appendChild(cardGraficoContent);
 cardGrafico.appendChild(cardGraficoBody);
 container2.appendChild(cardGrafico);
 
-//MODAL
-
-/*
-  // Agrega un evento de clic a la tarjeta
-  cardDiv.addEventListener('click', function() {
-    // Muestra los detalles de la tarjeta
-      let modal = document.getElementById("myModal");
-  
-      // Obtén el elemento que muestra el texto del modal
-      let modalText = document.getElementById("modalText");
-
-
-      // Obtén el elemento que cierra el modal
-      let span = document.getElementsByClassName("close")[0];
-
-      // Cuando el usuario hace clic en el span (x), cierra el modal
-      span.onclick = function() {
-        modal.style.display = "none";
-      }
-
-      // Cuando el usuario hace clic en cualquier lugar fuera del modal, cierra el modal
-      window.onclick = function(event) {
-        if (event.target == modal) {
-          modal.style.display = "none";
-        }
-      }
-
-      // Agrega un evento de clic a la tarjeta
-      cardDiv.addEventListener('click', function() {
-        // Cambia el texto del modal a los detalles de la tarjeta
-        modalText.textContent = card.details;
-
-        // Muestra el modal
-        modal.style.display = "block";
-      });
-      */
-
-
 // Definir los puntos de inicio y final como vectores
 let puntoInicio = { x: 0, y: 0 };
 let puntoFinal = { x: 800, y: 500 };
@@ -207,6 +123,8 @@ let html = `<div class="card cardTest" style="max-height: ${alturaMaxima}; heigh
 </div>
 </div>`;
 container3.innerHTML += html;
+
+
 
 
 
