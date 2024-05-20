@@ -1,0 +1,45 @@
+
+
+
+.card-body{
+    margin: 10px 20px;
+    
+}
+
+.cardC{
+    /*height: 150px;*/
+    transition: transform 0.3s ease-in-out;
+}
+
+
+
+
+.cardC:hover {
+    transform: scale(1.04);
+}
+.cardGrafico{
+    /*height:300px;*/
+    transition: transform 0.3s ease-in-out;
+}
+
+.cardGrafico:hover{
+    transform: scale(1.04);
+}
+.card{
+    border: none;
+}
+
+
+
+.c1, .c2{
+    height: 300px;
+}
+
+.c3{
+    height: 150px;
+}
+
+.c4{
+    height: 470px;
+}
+
