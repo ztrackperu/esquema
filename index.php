@@ -35,7 +35,16 @@
                     <a class="nav-link" href="project.php"><i class="ri-user-3-fill"></i>Projects</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#"><i class="ri-settings-3-fill"></i></a>
+                    <a class="nav-link" href="createProject.php"><i class="ri-settings-3-fill"></i>Create Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="socialFeed.php"><i class="ri-settings-3-fill"></i>Social Feed</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="task.php"><i class="ri-settings-3-fill"></i>Task</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="taskDetail.php"><i class="ri-settings-3-fill"></i>Task Detail</a>
                 </li>
             </ul>
         </nav>
