@@ -46,6 +46,12 @@
                 <li class="nav-item">
                     <a class="nav-link" href="taskDetail.php"><i class="ri-settings-3-fill"></i>Task Detail</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="taskBoard.php"><i class="ri-settings-3-fill"></i>Task Board</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="profile.php"><i class="ri-settings-3-fill"></i>Profile</a>
+                </li>
             </ul>
         </nav>
 </div>

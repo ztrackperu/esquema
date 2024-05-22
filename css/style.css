@@ -76,5 +76,19 @@ ul{
     list-style-type: none;
 }
 
+.pg-aside-left{
+    background-color: #d2f1fa;
+    width: 50%;
+    float: left;
+    padding: 0 20px 20px 10px;
+    position:relative;
+}
 
+.pg-aside-right{
+    background-color: #081f24;
+    width: 50%;
+    float:right;
+    padding: 0 20px 20px 10px;
+    position:relative;
+}
 
