@@ -88,41 +88,76 @@
                     <div class="tab-content" id="pills-content">
                         <div class="tab-pane fade show active" id="about" role="tabpanel" aria-labelledby="about-tab">
                             <h5 class="text-muted"><i class="ri-user-4-fill"></i>EXPERIENCE</h5>
+                                <!--LINEA DE TIEMPO-->
+                                <div class="container">
+                                    <div class="row">
+                                        <!-- CREANDO UN EFECTO DE CENTRADO AL DESPLAZAR 3 COLUMNAS HACIA LA DERECHA-->
+                                        <div class="col-md-6">
+                                            <div class="timeline-item">
+                                                <i class="ri-circle-fill img-thumbnail rounded-circle" style="color:blue"></i>
+                                            </div>
+                                            <div class="timeline-item border-start border-3 p-3 ms-2">
+                                                <h5 class="text-muted fs-6">Developer</h5>
+                                                <p>Software Inc.<span> Year:2020-2022</span></p>
+                                                <p>Lorem ipsum dolor sit aem volupugit voluptatum nesciunt odio odit fugiat! Iusto?</p>
+                                            </div>
+                                            <div class="timeline-item ">
+                                                <i class="ri-circle-fill img-thumbnail rounded-circle" style="color:blue"></i>
+                                            </div>
+                                            <div class="timeline-item border-start border-3 p-3 ms-2">
+                                                <h5 class="text-muted fs-6">Developer</h5>
+                                                <p>Software Inc.<span> Year:2020-2022</span></p>
+                                                <p>Lorem ipsum dolor sit aem volupugit voluptatum nesciunt odio odit fugiat! Iusto?</p>
+                                            </div>
+                                            <div class="timeline-item ">
+                                                <i class="ri-circle-fill img-thumbnail rounded-circle" style="color:blue"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             <h5 class="text-muted"><i class="ri-computer-fill"></i>PROJECTS</h5>
                             <!-- DATATABLE -->
-                            <table id="example" class="table table-striped " style="width:100%">
-                                <thead style="background-color:#edf2f7;">
-                                    <tr>
-                                        <th>#</th>
-                                        <th>Clients</th>
-                                        <th>Project Name</th>
-                                        <th>Start Date</th>
-                                        <th>Due Date</th>
-                                        <th>Status</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td>1</td>
-                                        <td class="d-flex">
-                                            <img src="Assets/img/user1.jpg" alt="pfl" class="rounded-circle" width="30" height="30">
-                                            <h5 class="text-muted fs-6 ms-2">Gian Arce</h5>
-                                        </td>
-                                        <td>App design and development</td>
-                                        <td>22/05/2024</td>
-                                        <td>23/05/2024</td>
-                                        <td><span class="badge badge-primary">Work in Progress</span></td>
-                                    </tr>
-                                    <tr>
-                                        <td>2</td>
-                                        <td>Facebook</td>
-                                        <td>App design and development</td>
-                                        <td>22/05/2024</td>
-                                        <td>23/05/2024</td>
-                                        <td>$15,800</td>
-                                    </tr>
-                                </tbody>
-                            </table>
+                            <div class="table-responsive">
+                                <table id="example" class="table overflow-auto table-borderless table-nowrap mb-0">
+                                    <thead style="background-color:#edf2f7;">
+                                        <tr>
+                                            <th>#</th>
+                                            <th>Clients</th>
+                                            <th>Project Name</th>
+                                            <th>Start Date</th>
+                                            <th>Due Date</th>
+                                            <th>Status</th>
+                                            <th>E1</th>
+                                            <th>E2</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>1</td>
+                                            <td class="d-flex">
+                                                <img src="Assets/img/user1.jpg" alt="pfl" class="rounded-circle" width="30" height="30">
+                                                <h5 class="text-muted fs-6 ms-2">Gian Arce</h5>
+                                            </td>
+                                            <td>App design and development</td>
+                                            <td>22/05/2024</td>
+                                            <td>23/05/2024</td>
+                                            <td><span class="badge bg-success">Work in Progress</span></td>
+                                            <td>test</td>
+                                            <td>test</td>
+                                        </tr>
+                                        <tr>
+                                            <td>2</td>
+                                            <td>Facebook</td>
+                                            <td>App design and development</td>
+                                            <td>22/05/2024</td>
+                                            <td>23/05/2024</td>
+                                            <td><span class="badge bg-danger">Pending</span></td>
+                                            <td>test</td>
+                                            <td>test</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
                         </div>
                         <div class="tab-pane fade" id="timeline" role="tabpanel" aria-labelledby="timeline-tab">
                             <h5 class="text-muted">TIMELINE:</h5>

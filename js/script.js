@@ -1,6 +1,6 @@
 let cards = [
-  { title: 'Tarjeta 1', content: 'Contenido tarjeta 1aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa', details: 'Detalles tarjeta 1' },
-  { title: 'Tarjeta 2', content: 'Contenido tarjeta 2aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa', details: 'Detalles tarjeta 2' },
+  { title: 'Tarjeta 1', content: 'Contenido tarjeta 1', details: 'Detalles tarjeta 1' },
+  { title: 'Tarjeta 2', content: 'Contenido tarjeta 2', details: 'Detalles tarjeta 2' },
   { title: 'Tarjeta 3', content: 'Contenido tarjeta 3', details: 'Detalles tarjeta 3' },
   { title: 'Tarjeta 4', content: 'Contenido tarjeta 4', details: 'Detalles tarjeta 4' },
   //{ title: 'Tarjeta 5', content: 'Contenido tarjeta 5', details: 'Detalles tarjeta 5' },
@@ -74,12 +74,7 @@ let cardGraficoContent = document.createElement('p');
 cardGraficoContent.className = 'card-text overflow-auto';
 cardGraficoContent.textContent = `Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id explicabo voluptatem ipsam fugiat suscipit soluta, excepturi quibusdam error eveniet, 
 perspiciatis dolorum distinctio, repellendus hic natus vero a eligendi culpa facilis? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo nobis facere velit quisquam, 
-quos animi dolores quasi sint optio ad necessitatibus. Non dicta placeat odit quo dignissimos fugit consequatur voluptas. Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-Expedita quod consectetur sint commodi repellendus cupiditate ipsam? Illo facilis, facere incidunt aliquam quam quo deserunt vitae ipsam atque possimus in iste!
-Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id explicabo voluptatem ipsam fugiat suscipit soluta, excepturi quibusdam error eveniet, 
-perspiciatis dolorum distinctio, repellendus hic natus vero a eligendi culpa facilis? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo nobis facere velit quisquam, 
-quos animi dolores quasi sint optio ad necessitatibus. Non dicta placeat odit quo dignissimos fugit consequatur voluptas. Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-Expedita quod consectetur sint commodi repellendus cupiditate ipsam? Illo facilis, facere incidunt aliquam quam quo `;
+quos animi dquo `;
 if (cardGraficoContent.textContent.length / caracteresPorLinea2 > maxLineas2) {
   cardGraficoBody.style.overflowY = 'scroll';
   cardGraficoBody.style.scrollbarWidth = 'none'; // Para Firefox

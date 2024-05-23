@@ -27,30 +27,42 @@
             <a class="navbar-brand p-2 toggle-btn" href="#">
                 <i class="ri-align-justify"></i>
             </a>
-            <ul class="navbar-nav d-flex flex-row-reverse gap-4">
+            <ul class="navbar-nav list-group list-group-horizontal gap-4">
                 <li class="nav-item">
-                    <a class="nav-link border" href="email.php"><i class="ri-notification-3-fill">Email</i></a>
+                    <a class="nav-link border" href="email.php">Email</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="project.php"><i class="ri-user-3-fill"></i>Projects</a>
+                    <a class="nav-link" href="project.php">Projects</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="createProject.php"><i class="ri-settings-3-fill"></i>Create Projects</a>
+                    <a class="nav-link" href="createProject.php">Create Projects</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="socialFeed.php"><i class="ri-settings-3-fill"></i>Social Feed</a>
+                    <a class="nav-link" href="socialFeed.php">Social Feed</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="task.php"><i class="ri-settings-3-fill"></i>Task</a>
+                    <a class="nav-link" href="task.php">Task</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="taskDetail.php"><i class="ri-settings-3-fill"></i>Task Detail</a>
+                    <a class="nav-link" href="taskDetail.php">Task Detail</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="taskBoard.php"><i class="ri-settings-3-fill"></i>Task Board</a>
+                    <a class="nav-link" href="taskBoard.php">Task Board</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="profile.php"><i class="ri-settings-3-fill"></i>Profile</a>
+                    <a class="nav-link" href="profile.php">Profile</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="invoice.php">Invoice</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="pricing.php">Pricing</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="timeline.php">Timeline</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="management.php">Management</a>
                 </li>
             </ul>
         </nav>
