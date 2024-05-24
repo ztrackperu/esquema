@@ -64,6 +64,15 @@
                 <li class="nav-item">
                     <a class="nav-link" href="management.php">Management</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="chat.php">Chat</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="gantt.php">Gant</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="fileManager.php">File Manager</a>
+                </li>
             </ul>
         </nav>
 </div>

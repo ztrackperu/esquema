@@ -66,12 +66,18 @@
                     </div>
                     <div class="border-top">
                         <div class="card-body mb-0">
-                            <div class="d-flex justify-content-start">
-                                <i class="ri-calendar-line"></i>
-                                <p class="ms-2">Jan 24 2024</p>
-                                <div class="w-100">
-                                <i class="ri-chat-2-line float-end"></i>
+                            <div class="row ">
+                                <div class="col-md-8">
+                                    <div class="d-flex">
+                                        <i class="ri-calendar-line text-muted"></i>
+                                        <p class="ms-2 text-muted">Jan 24 2024</p>
+                                    </div>
                                 </div>
+                            
+                                <div class="col-md-4">
+                                    <i class="ri-chat-2-line float-end text-muted"></i>
+                                </div>
+                             
                             </div>
                         </div>
                     </div>

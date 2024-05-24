@@ -12,4 +12,3 @@ Dropzone.options.myAwesomeDropzone = {
   };
 
 
-  
