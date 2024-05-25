@@ -73,6 +73,12 @@
                 <li class="nav-item">
                     <a class="nav-link" href="fileManager.php">File Manager</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="orderDetail.php">Order Detail</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="checkout.php">Checkout</a>
+                </li>
             </ul>
         </nav>
 </div>
